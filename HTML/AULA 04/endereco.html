@@ -1,0 +1,44 @@
+<form class="formulario" action="enviar-email.php" method="post">
+    <p><strong>Inserir um endere&ccedil;o para envio</strong></p>
+    <hr />
+    <div class="field"><label for="nome"><strong>Nome Completo</strong></label> <br /><input id="nome" name="nome" required="" type="text" placeholder="Digite seu nome" /></div>
+    <br />
+    <div class="field"><label for="telefone"><strong>Telefone</strong></label> <br /><input id="telefone" name="telefone" type="text" placeholder="Digite seu Telefone" /> <br /><small>Pode ser usado para auxiliar a entrega</small></div>
+    <br />
+    <div class="field"><label for="email"><strong>E-Mail</strong></label> <br /><input id="email" name="email" required="" type="email" placeholder="Digite seu E-Mail" /></div>
+    <br><label for="cep"><strong>CEP </strong></label> <br /><input maxlength="10" name="cep" size="10" type="text" /><br />
+     <br><label for="rua"><strong>Endereço</strong></label><br /><input name="rua" type="text" /> <br /><br /><label for="numero"><strong>N&uacute;mero da resid&ecirc;ncia</strong></label><br /><input name="numero" size="10" type="text" /></p>
+    <p><label for="bairro"><strong>Bairro</strong></label> <br /><input name="bairro" type="text" /></p>
+    <p><label for="cidade"><strong>Cidade</strong></label><br /><input name="cidade" type="text" /></p>
+    <label for="estado"><strong>Estado</strong><br /><select name="estado">
+    <option value="ac">Acre</option>
+    <option value="al">Alagoas</option>
+    <option value="am">Amazonas</option>
+    <option value="ap">Amap&aacute;</option>
+    <option value="ba">Bahia</option>
+    <option value="ce">Cear&aacute;</option>
+    <option value="df">Distrito Federal</option>
+    <option value="es">Esp&iacute;rito Santo</option>
+    <option value="go">Goi&aacute;s</option>
+    <option value="ma">Maranh&atilde;o</option>
+    <option value="mt">Mato Grosso</option>
+    <option value="ms">Mato Grosso do Sul</option>
+    <option value="mg">Minas Gerais</option>
+    <option value="pa">Par&aacute;</option>
+    <option value="pb">Para&iacute;ba</option>
+    <option value="pr">Paran&aacute;</option>
+    <option value="pe">Pernambuco</option>
+    <option value="pi">Piau&iacute;</option>
+    <option value="rj">Rio de Janeiro</option>
+    <option value="rn">Rio Grande do Norte</option>
+    <option value="ro">Rond&ocirc;nia</option>
+    <option value="rs">Rio Grande do Sul</option>
+    <option value="rr">Roraima</option>
+    <option value="sc">Santa Catarina</option>
+    <option value="se">Sergipe</option>
+    <option value="sp">S&atilde;o Paulo</option>
+    <option value="to">Tocantins</option>
+    </select></label>
+    <p><input type="checkbox" /> O endere&ccedil;o de entrega &eacute; o mesmo de cobran&ccedil;a <br /><input name="acao" type="submit" value="Incluir endere&ccedil;o" /></p>
+    </form>
+    
