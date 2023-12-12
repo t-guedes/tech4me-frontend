@@ -1,0 +1,22 @@
+@media screen {
+    .impressao {
+        /* display:none; */
+        color: green
+    }
+
+    @media print {
+        .impressao {
+            color: blue;
+        }
+    }
+
+}
+
+@media (max-width:767px ) {
+    p {
+        margin-left: 50px;
+        border: 3px solid saddlebrown;
+    }
+
+}
+    
