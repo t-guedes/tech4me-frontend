@@ -1,0 +1,79 @@
+p {
+    color: red;
+  }
+  
+  
+  /* Somente quando o h1 for filho de div */
+  div h1 {
+    color: green;
+  }
+  
+  
+  div .texto {
+    color: blue;
+  }
+  
+  
+  .texto {
+    color: orangered;
+  }
+  
+  
+  div #ola {
+    stroke-dashoffset: 0cap;
+  }
+  
+  
+  li > b {
+    color: fuchsia;
+  }
+  
+  
+  img {
+    width: 200px;
+  }
+  
+  
+  /* ordem é importante */
+  /* o estilo é aplicado no seletor após operador */
+  img + span {
+    background-color: brown;
+  }
+  
+  
+  img ~ p {
+    background-color: blueviolet;
+  }
+  
+  
+  span + p {
+    background-color: blanchedalmond;
+  }
+  
+  
+  #principal strong {
+    color: green;
+  }
+  
+  
+  a:visited {
+    color: aquamarine;
+  }
+  
+  
+  a:active {
+    color: red;
+  }
+  
+  
+  a:hover {
+    color: green;
+    font-size: larger;
+  }
+  
+  
+  span + p::first-letter {
+    color: white;
+    background-color: red;
+  }
+  

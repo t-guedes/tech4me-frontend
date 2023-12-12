@@ -1,0 +1,31 @@
+* {
+    background-color: palevioletred;
+
+    margin: 0;
+}
+
+[div] {
+    background-color: palevioletred;
+}
+
+
+
+div[class] {
+    background-color: grey;
+}
+
+[class="vermelho"] {
+    background-color: red;
+}
+
+[class^="amarelo"] {
+    background-color: chocolate;
+}
+
+[class$="o"] {
+    background-color: gold;
+}
+
+[class*="a"] {
+    border-color: brown;
+}

@@ -1,0 +1,28 @@
+p {
+    color: blue;
+    background-color: blueviolet;
+}
+
+#central {
+    color: brown;
+}
+
+#interno {
+    background-color: aquamarine;
+    color: black
+}
+
+.verde {
+    background-color: black;
+    color: white
+}
+
+.amarelo {
+    background-color: fuchsia;
+    color: green
+}
+
+.vermelho {
+    background-color: yellow;
+    color: white
+}
