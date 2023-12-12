@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    UF:
+    <h2>Caixa de seleção</h2>
+<form action="/cadastro" method="get">
+    <fieldset>
+    <select name="uf" id="uf" >
+        <option value="es">ES</option>
+        <Option value="rj">RJ</Option>
+        <option value="mg">MG</option>
+        <option value="sp">SP</option>
+    </select>
+    </fieldset>
+    <label for="nome">Nascimento:</label>
+    <input type="date" name="nascimento" value="number" required/>
+    <fieldset><input type="checkbox" required name="aceito"/> Aceito o contrato</fieldset>
+    <button>Enviar</button>
+    </form>
+</body>
+</html>
