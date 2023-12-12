@@ -1,0 +1,33 @@
+h1{
+    background-color:yellow;
+}
+
+.msg .destaque::before {
+    content: "Não desita: ";
+    color: green;
+    font-weight: bold;
+
+}
+
+em {
+    color:yellowgreen;
+    background-color:darkslategrey;
+    text-transform: uppercase;
+}
+
+p::first-letter {
+    color: white;
+    background-color: red;
+  }
+
+p::first-line{
+    background-color:honeydew;
+  }
+
+p::after {
+    content: "Siga seus sonhos!";
+    color:white;
+    background-color:lightgreen;
+    font-weight:bold;
+}
+  
