@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(51, 51, 51);
+}
+
+header {
+    background-color: rgb(240, 240, 240); 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 122, 204); 
+}
+

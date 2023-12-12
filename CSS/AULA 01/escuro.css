@@ -1,0 +1,26 @@
+body {
+    background-color:  #1a1a1a;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #0b0c10;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h2 {
+    color:#cccccc;
+}
+
+ol li {
+    color:#007acc;
+}

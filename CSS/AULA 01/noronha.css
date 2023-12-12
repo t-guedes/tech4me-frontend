@@ -1,0 +1,23 @@
+h1 {
+    background-color:rgb(44, 160, 40);
+}
+
+h2 {
+    background-color:rgb(44, 160, 40);;
+}
+
+h2 em{
+    color:khaki;
+}
+
+h3 {
+    background-color:rgb(44, 160, 40);;
+}
+
+ul strong {
+    color: darkolivegreen;
+}
+
+footer {
+    background-color: gainsboro;
+}

@@ -1,0 +1,29 @@
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgba(169, 166, 166, 0.796);
+    padding: 8px;
+}
+
+th {
+    background-color: white;
+    border:1px solid rgba(169, 166, 166, 0.796) ;
+}
+
+td {
+    border: 1px solid rgba(169, 166, 166, 0.796);
+    background-color: green;
+    color: black;
+    padding: 8px;
+}
+
+.nome {
+    background-color: white;
+}
+
+.cor {
+    color: yellow;
+}
+
+.branco {
+    color: white;
+}
