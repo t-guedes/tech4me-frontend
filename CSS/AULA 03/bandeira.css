@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 150px;
+    height: 100px;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.branco {
+    background-color: white;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.preto {
+    background-color: black;
+}
+
+.amarelo {
+    background-color: yellow;
+}
