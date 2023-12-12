@@ -1,0 +1,93 @@
+div {
+    width: 200px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+.amarelo {
+    height: 65px;
+    background-color: yellow;
+    animation: amarelo 3s infinite;
+}
+
+
+.azul {
+    background-color: blue;
+    animation: azul 4s ease-out 7 reverse both;
+}
+
+.vermelho {
+    background-color: red;
+    animation-name: verm;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.verde {
+    background-color: greenyellow;
+    animation: animaverde 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes amarelo {
+    from {
+        width: 120px;
+
+    }
+
+    to {
+        width: 400px;
+
+
+    }
+}
+
+@keyframes azul {
+    to {
+        width: 450px;
+    }
+
+}
+
+@keyframes verm {
+    from {
+        width: 150px;
+        transition: all 3s;
+
+    }
+
+    to {
+        width: 400px;
+        transition: all 3s;
+        background-color: black;
+    }
+}
+
+@keyframes animaverde {
+    0% {
+        width: 50px;
+    }
+
+    20% {
+        width: 100px;
+    }
+
+    50% {
+        width: 150px;
+    }
+
+    75% {
+        width: 300px;
+    }
+
+    100% {
+        width: 500px;
+    }
+    40%,
+    60% {
+        background-color: green;
+    }
+}

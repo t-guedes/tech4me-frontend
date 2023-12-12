@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(28, 192, 218);
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    animation: rodar 10s infinite;
+}
+
+@keyframes rodar {
+    from {
+        transition: 20s cubic-bezier(0.28, 0.44, 0.57, 1) 0s;
+    }
+
+    to {
+        transform: translateZ(0px) rotate(402.124rad);
+    }
+}

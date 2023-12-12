@@ -1,0 +1,24 @@
+.comida-container {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.comida {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    background: linear-gradient(to right, #f12711 0%, #f5af19 100%);
+    animation: loading 2s infinite;
+}
+
+@keyframes loading {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 15;
+    }
+}

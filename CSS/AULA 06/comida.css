@@ -1,0 +1,111 @@
+div {
+    width: 200px;
+    height: 50px;
+}
+
+.strogonoff {
+    height: 65px;
+    background-color: yellow;
+    animation: strogonoff 3s infinite;
+}
+
+
+.lasanha {
+    background-color: blue;
+    animation: lasanha 4s ease-out 7 reverse both;
+}
+
+.churrasco {
+    background-color: red;
+    animation-name: churrasco;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.empadão {
+    background-color: greenyellow;
+    animation: empadão 2s infinite;
+    animation-direction: alternate;
+}
+
+.jilo {
+    height: 3px;
+    background-color: peru;
+    animation: jilo 3s infinite;
+}
+
+@keyframes strogonoff {
+    from {
+        width: 120px;
+
+    }
+
+    to {
+        width: 400px;
+
+
+    }
+}
+
+@keyframes lasanha {
+    to {
+        width: 450px;
+    }
+
+}
+
+@keyframes churrasco {
+    from {
+        width: 150px;
+        transition: all 3s;
+
+    }
+
+    to {
+        width: 400px;
+        transition: all 3s;
+        background-color: gray;
+    }
+}
+
+@keyframes empadão {
+    0% {
+        width: 50px;
+    }
+
+    20% {
+        width: 100px;
+    }
+
+    50% {
+        width: 150px;
+    }
+
+    75% {
+        width: 300px;
+    }
+
+    100% {
+        width: 500px;
+    }
+    40%,
+    60% {
+        background-color: green;
+    }
+}
+
+@keyframes jilo {
+    from {
+        width: 120px;
+
+    }
+
+    to {
+        width: 400px;
+
+
+    }
+}
