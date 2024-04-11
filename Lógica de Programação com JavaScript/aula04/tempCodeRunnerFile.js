@@ -1,0 +1,1 @@
+if (atingido) console.log("Limite atingido (você não pode entrar)");
