@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urumaki</title>
+
+    <style>
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        span {
+            color: green;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+            color: #4caf50;
+            text-transform: uppercase;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: capitalize;
+
+        }
+
+        nav ol {
+            text-align: right;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+        }
+
+        .text {
+            display: inline-block;
+            text-align: left;
+            background-color: transparent;
+            padding: 20px;
+            margin: 0;
+        }
+
+        @keyframes cores {
+            0% {
+                color: red;
+            }
+
+            25% {
+                color: orange;
+            }
+
+            50% {
+                color: yellow;
+            }
+
+            75% {
+                color: green;
+            }
+
+            100% {
+                color: blue;
+            }
+        }
+
+        .animação {
+            animation: cores 5s linear infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Arigatô</li>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+            </ul>
+            <ol><a href="informacoes_2.html" class="animação">Faça seu pedido</a></ol>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="text">
+            <h1>Uramaki: um sushi invertido para você se deliciar!</h1>
+            <img src="uramaki.jpg" alt="urumaki">
+            <p>
+                Entre os diferentes tipos de sushi que atraem os amantes da culinária japonesa está o
+                <strong>uramaki</strong>. Conhecido
+                como sushi invertido, ele traz o <span>gohan</span> (arroz japonês) por fora e a alga por dentro. Você
+                já provou?
+            </p>
+            <p>
+                Nesta versão visualmente bonita do sushi – e saborosa também! – o nori (ou folha de alga) fica por
+                dentro,
+                segurando firme o recheio que pode ser de <span>peixe cru </span>ou grelhado.
+            </p>
+            <p>
+                Legumes, frutas e cream cheese completam a composição do prato, aumentando a variedade de cores e
+                sabores
+                que a culinária japonesa sabe harmonizar muito bem.
+            </p>
+            <p>
+                A parte mais crespa da alga fica por cima, justamente para firmar bem o gohan, que é salpicado de
+                sementes
+                de gergelim naturais ou torradas.
+            </p>
+
+            <h2>Versões de uramaki para todos os gostos!</h2>
+            <p>
+                Certamente, o uramaki é presença garantida no cardápio do Arigatô! No restaurante, os clientes encontram
+                as
+                versões com peixes variados ou crispy, feita de pepino com couve ou de pepino com batata doce frita.
+            </p>
+
+            <p>Para os vegetarianos e <span>veganos</span>, o Arigatô oferece a versão com recheio de pepino e
+                <span>shimeji</span>.
+            </p>
+
+            <p>
+                E, para fechar, uma curiosidade: o uramaki não foi criado do Japão. Ele vem dos Estados Unidos e foi
+                criado
+                por Ichiro Masahita, com o nome de California Roll.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
